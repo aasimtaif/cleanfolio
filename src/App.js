@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -16,12 +17,12 @@ const App = () => {
     <div id='top' className={`${themeName} app`}>
       <Header />
 
-      <main>
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
+      <Routes>
+        <Route path='/' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/skills' element={<Skills />} />
+      </Routes>
 
       <ScrollToTop />
       <Footer />

@@ -1,11 +1,18 @@
+import { BrowserRouter } from 'react-router-dom'
+
 import { render } from 'react-dom'
-import App from './App'
+
 import { ThemeProvider } from './contexts/theme'
+
+import App from './App'
+
 import './index.css'
 
 render(
   <ThemeProvider>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </ThemeProvider>,
   document.getElementById('root')
 )

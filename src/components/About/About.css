@@ -2,7 +2,10 @@
   flex-direction: column;
   margin-top: 3em;
 }
-
+b{
+  font-weight: 900;
+  color: rgb(147, 71, 223);
+}
 .about__name {
   color: var(--clr-primary);
 }
@@ -12,7 +15,7 @@
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.3rem;
   max-width: 600px;
 }
 

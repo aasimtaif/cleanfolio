@@ -1,15 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+
+  title: 'MAT.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Mohd Asim Taifullah',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    `
+    I love the process of changing a raw idea into a website or a product that impacts lives. I want to do work that challenges me as a developer & work that I can be proud of.
+    
+    I am fluent in C++ and know a bit of Python and am working on a few projects in the MERN stack.
+    I plan to learn Next.js, Three.js and Typescript in the near future.`,
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -52,15 +56,14 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
   'Redux',
-  'SASS',
   'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Bootstrap',
+  'MongoDb',
+  'Express',
+  'Svelte',
+  'Tailwind'
 ]
 
 const contact = {
